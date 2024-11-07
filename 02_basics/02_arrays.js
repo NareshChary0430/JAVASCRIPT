@@ -23,3 +23,9 @@ console.log(Array.from("Naresh")); //if we use from it convert string to array
 console.log(Array.from({name:"Naresh"}));  // interesting
 
 
+let score1 = 15;
+let score2 = 20;
+let score3 = 23;
+
+const myNew = Array.of(score1,score2,score3);
+console.log(myNew);
