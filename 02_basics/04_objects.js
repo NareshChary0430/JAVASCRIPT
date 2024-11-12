@@ -33,3 +33,23 @@ console.log(obj3);
 console.log(obj4);
 
 
+
+const Users = [
+    {
+        id : 1,
+        email : "Naresh@1234gmail.com"
+    },
+    {
+        id : 2,
+        email : "SAi2GMAIL.COM",
+    }
+]
+
+console.log(Users[1].email);
+
+
+// how to print keys and values
+
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+
