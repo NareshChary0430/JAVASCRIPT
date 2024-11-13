@@ -61,3 +61,13 @@ const course = {
 
 const {courseInstructor} = course;
 console.log(courseInstructor);
+
+
+// {
+//     name : "Naresh",
+//     courseName : "js in vscode",
+//     price : "free"
+// }
+
+
+
