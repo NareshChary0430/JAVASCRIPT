@@ -53,3 +53,11 @@ console.log(Users[1].email);
 console.log(Object.keys(tinderUser));
 console.log(Object.values(tinderUser));
 
+const course = {
+    courseName : "js in vscode",
+    price : "3333",
+    courseInstructor : "Naresh",
+}
+
+const {courseInstructor} = course;
+console.log(courseInstructor);
